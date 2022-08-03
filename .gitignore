@@ -1,0 +1,6 @@
+## 生成文件
+dist/
+package-lock.json
+
+## Node.js
+node_modules/

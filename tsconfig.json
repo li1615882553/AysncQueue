@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		// 指定ECMAScript目标版本
+		"target": "es2018",
+		"module": "CommonJS",
+		"newLine": "LF",
+		"useDefineForClassFields": false,
+		"experimentalDecorators": true,
+		"preserveConstEnums": true,
+		"esModuleInterop": true,
+		"stripInternal": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowUmdGlobalAccess": true
+	},
+	"include": [
+		"./src"
+	]
+}

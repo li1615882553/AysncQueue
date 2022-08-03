@@ -1,0 +1,20 @@
+{
+  "name": "asyncqueue",
+  "version": "0.0.1",
+  "description": "支持串行执行，并行执行的异步任务队列",
+  "main": "index.ts",
+  "license": "MIT",
+  "author": "li_student@163.com",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --declaration && node -e \"var pkg = require('./package.json'); delete pkg.devDependencies; delete pkg.scripts; fs.writeFileSync('dist/package.json', JSON.stringify(pkg, undefined, 2)); fs.copyFileSync('README.md', 'dist/README.md');\""
+  },
+  "keywords": [
+    "promise",
+    "queue"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4",
+    "ts-node": "^10.8.1"
+  }
+}
